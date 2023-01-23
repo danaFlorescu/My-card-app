@@ -13,9 +13,20 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Container(
           decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage("images/background_img.jpg"),
-                  fit: BoxFit.cover)),
+            image: DecorationImage(
+                image: AssetImage("images/background_img.jpg"),
+                fit: BoxFit.cover),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                radius: 100.0,
+                backgroundImage: AssetImage('images/profile_pic.jpg'),
+              )
+            ],
+          ),
         ),
       ),
     );
