@@ -30,6 +30,7 @@ flutter:
   assets:
     - images/background_img.jpg
     - images/profile_pic.jpg
+    - images/profile_pic_2.jpg
 
 
   fonts:

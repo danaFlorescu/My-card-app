@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 100.0,
-                backgroundImage: AssetImage('images/profile_pic.jpg'),
+                backgroundImage: AssetImage('images/profile_pic_2.jpg'),
               ),
               Center(
                 child: Text(
@@ -43,6 +43,7 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'SourceCodePro',
                     fontSize: 20.0,
                     color: Colors.white,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
